@@ -43,7 +43,6 @@ public class Main {
                     System.out.println(nev6 + " kölcsönzései:");
                     vaneredmeny = true;
                 }
-                // Vezető nullák hozzáadása egyjegyű órák és percek előtt
                 String elvitel = String.format("%02d:%02d", k.getEOra(), k.getEPerc());
                 String visszahozatal = String.format("%02d:%02d", k.getVOra(), k.getVPerc());
 
